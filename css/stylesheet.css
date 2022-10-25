@@ -29,14 +29,14 @@ body{
 .parent .div2  {
 -webkit-transform: scaleX(-1);
   transform: scaleX(-1);
-  animation: fish2 7s linear infinite;
+  animation: fish2 5s linear infinite;
   position: relative;
   /* width: 200px; */
   animation-delay: 5s;
   visibility: hidden;
 }
 .parent .div3  {
-    animation: fish31 7s linear infinite;
+    animation: fish31 5s linear infinite;
     position: relative;
     /* width: 200px; */
     animation-delay: 10s;
@@ -44,7 +44,7 @@ body{
  transform: scaleX(-1);
 }
 .parent .div4  {
-  animation: fish4 7s linear infinite;
+  animation: fish4 5s linear infinite;
   position: relative;
   animation-delay: 15s;
   visibility: hidden;
@@ -52,13 +52,13 @@ body{
 }
 .parent .div5  {
  transform: scaleX(-1);
-  animation: fish5 7s linear infinite;
+  animation: fish5 5s linear infinite;
   position: relative;
   animation-delay: 20s;
   visibility: hidden;
 }
 .parent .div6  {
-animation: fish6 7s linear infinite;
+animation: fish6 5s linear infinite;
   position: relative;
   animation-delay: 25s;
   visibility: hidden;
@@ -66,14 +66,14 @@ animation: fish6 7s linear infinite;
 }
 .parent .div7  {
   transform: scaleX(-1);
-  animation: fish7 7s linear infinite;
+  animation: fish7 5s linear infinite;
   position: relative;
   animation-delay: 30s;
   visibility: hidden;
 }
 .parent .div8  {
 transform: scaleX(-1);
-  animation: fish8 7s linear infinite;
+  animation: fish8 5s linear infinite;
   position: relative;
   animation-delay: 35s;
   visibility: hidden;
