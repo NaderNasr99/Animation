@@ -1,0 +1,256 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(../images/background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+
+}
+.parent{
+    height: 100vh;
+    
+}
+.parent img{
+    width: 130px;
+
+}
+.parent .div1 {
+    /* width: 200px; */
+    animation: fish 5s linear infinite;
+    position: relative;
+  transform: scaleX(-1);
+}
+.parent .div2  {
+-webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+  animation: fish2 7s linear infinite;
+  position: relative;
+  /* width: 200px; */
+  animation-delay: 5s;
+  visibility: hidden;
+}
+.parent .div3  {
+    animation: fish31 7s linear infinite;
+    position: relative;
+    /* width: 200px; */
+    animation-delay: 10s;
+    visibility: hidden;
+ transform: scaleX(-1);
+}
+.parent .div4  {
+  animation: fish4 7s linear infinite;
+  position: relative;
+  animation-delay: 15s;
+  visibility: hidden;
+  transform: scaleX(-1);
+}
+.parent .div5  {
+ transform: scaleX(-1);
+  animation: fish5 7s linear infinite;
+  position: relative;
+  animation-delay: 20s;
+  visibility: hidden;
+}
+.parent .div6  {
+animation: fish6 7s linear infinite;
+  position: relative;
+  animation-delay: 25s;
+  visibility: hidden;
+ transform: scaleX(-1);
+}
+.parent .div7  {
+  transform: scaleX(-1);
+  animation: fish7 7s linear infinite;
+  position: relative;
+  animation-delay: 30s;
+  visibility: hidden;
+}
+.parent .div8  {
+transform: scaleX(-1);
+  animation: fish8 7s linear infinite;
+  position: relative;
+  animation-delay: 35s;
+  visibility: hidden;
+}
+
+
+@keyframes fish{
+    0%{width: 0;
+    }
+    100%{
+        width: 100vw;
+    }
+}
+@keyframes fish2{
+    0%{width: 100vw;
+        visibility: visible;
+
+    }
+    100%{
+    width: 0;
+    }
+}
+@keyframes fish31{
+    0%{width: 0;
+    }
+    100%{
+        width: 100vw;
+        visibility: visible ;
+    }
+}
+
+
+@keyframes fish4{
+    0%{width: 100vw;
+        visibility: visible;
+
+    }
+    100%{
+    width: 0;
+    }
+}
+@keyframes fish5{
+    0%{width: 0;
+        visibility: visible;
+    }
+    100%{
+        width: 100vw;
+    }
+}
+@keyframes fish6{
+    0%{width: 100vw;
+        visibility: visible;
+
+    }
+    100%{
+    width: 0;
+    }
+}
+@keyframes fish7{
+    0%{width: 0;
+        visibility: visible;
+    }
+    100%{
+        width: 100vw;
+    }
+}
+@keyframes fish8{
+    0%{width: 100vw;
+        visibility: visible;
+
+    }
+    100%{
+    width: 0;
+    }
+}
+.bubbles img {
+    width: 50px;
+    animation: bubble 7s linear infinite;
+}
+.bubbles{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: absolute;
+    bottom: -70px;
+}
+@keyframes bubble{
+    0%{transform: translateY(0);
+        opacity: 0;
+
+    }
+    50%{
+        opacity: 1;
+    }
+    70%{
+        opacity: 1;
+    }
+    100%{
+        transform: translateY(-80vh);
+        opacity: 0;
+
+    }
+}
+.bubbles img:nth-child(1){
+    animation-delay: 2s;
+    width: 25px;
+}
+.bubbles img:nth-child(2){
+    animation-delay: 1s;
+}
+.bubbles img:nth-child(3){
+    animation-delay: 3s;
+    width: 30px;
+
+}
+.bubbles img:nth-child(4){
+    animation-delay: 4.5s;
+}
+.bubbles img:nth-child(5){
+    animation-delay: 3s;
+    width: 35px;
+
+}
+.bubbles img:nth-child(6){
+    animation-delay: 7s;
+}
+.bubbles img:nth-child(7){
+    animation-delay: 6s;
+    width: 25px;
+
+}
+   .title-word {
+    animation: color-animation 4s linear infinite;
+  }
+  
+  .title-word-1 {
+    --color-1: #DF8453;
+    --color-2: #3D8DAE;
+    --color-3: #E4A9A8;
+  }
+  
+  .title-word-2 {
+    --color-1: #DBAD4A;
+    --color-2: #ACCFCB;
+    --color-3: #17494D;
+  }
+  
+  .title-word-3 {
+    --color-1: #ACCFCB;
+    --color-2: #E4A9A8;
+    --color-3: #ACCFCB;
+  }
+  
+  .title-word-4 {
+    --color-1: #3D8DAE;
+    --color-2: #DF8453;
+    --color-3: #E4A9A8;
+  }
+  
+  @keyframes color-animation {
+    0%    {color: var(--color-1)}
+    32%   {color: var(--color-1)}
+    33%   {color: var(--color-2)}
+    65%   {color: var(--color-2)}
+    66%   {color: var(--color-3)}
+    99%   {color: var(--color-3)}
+    100%  {color: var(--color-1)}
+  }
+  
+  
+  
+  .title {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 800;
+    font-size: 40px;
+    text-transform: uppercase;
+    text-align: center;
+  }
+  
